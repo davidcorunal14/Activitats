@@ -5,15 +5,17 @@
     text-decoration: none;
     list-style: none;
     font-size: 13px;
+
+    text-align: center;
 }
 
 #nada1, #nada2 {
-    background-color: gray;
+    background-color: rgb(161, 161, 161);
 }
 
 table {
     margin: 0 auto;
-    width: 90%;
+    width: 50%;
     table-layout: fixed;
 }
 
@@ -26,9 +28,50 @@ table {
 }
 
 .fila-media {
-    height: 45px;
+    height: 50px;
 }
 
 .fila-baja {
     height: 20px;
+    background-color: #D3D3D3;
+}
+
+#hora {
+    background-color: #D3D3D3;
+}
+
+#dias {
+    background-color: #D3D3D3;
+}
+
+#plan {
+    background-color: #ADEBB3;
+}
+
+#php {
+    background-color: yellow;
+}
+
+#ang {
+    background-color: pink;
+}
+
+#proj {
+    background-color: #8eb5e5;
+}
+
+#proj2 {
+    background-color: #82e0eb;
+}
+
+#seg {
+    background-color: #f9cb9c;
+}
+
+#tuto {
+    background-color: rgb(227, 226, 226);
+}
+
+#rest {
+    background-color: rgb(239, 123, 123);
 }
