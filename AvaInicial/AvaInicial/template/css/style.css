@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+}
+
+#nada1, #nada2 {
+    background-color: gray;
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    table-layout: fixed;
+}
+
+#dias {
+    height: 30px;
+}
+
+.fila-alta {
+    height: 60px;
+}
+
+.fila-media {
+    height: 45px;
+}
+
+.fila-baja {
+    height: 20px;
+}
