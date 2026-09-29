@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="cat">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,135 +12,137 @@
     </head>
     <body>
         <table border="1">
-            <tr id="dias">
-                <th id="nada1"></th>
-                <th id="dill">Dilluns</th>
-                <th id="dim">Dimarts</th>
-                <th id="dime">Dimecres</th>
-                <th id="dij">Dijous</th>
-                <th id="div">Divendres</th>
-            </tr>
+            <thead>
+               <tr id="dias">
+                    <th id="nada1"></th>
+                    <th id="dill">Dilluns</th>
+                    <th id="dim">Dimarts</th>
+                    <th id="dime">Dimecres</th>
+                    <th id="dij">Dijous</th>
+                    <th id="div">Divendres</th>
+                </tr> 
+            </thead>
+            
+            <tbody>
+                <tr id="fila1" class="fila-alta">
+                    <th id="hora">14:30-15:00</th>
+                    <td></td>
+                    <td></td>
+                    <td id="plan">
+                        0370.(Plan.XX)<br>
+                        Aula 9<br>
+                        Sergi
+                    </td>
+                    <td id="plan" rowspan="2">
+                        0370.(Plan.XX)<br>
+                        Aula 9<br>
+                        Sergi
+                    </td>
+                    <td></td>
+                </tr>
 
-            <tr id="fila1" class="fila-alta">
-                <th id="hora">14:30-15:00</th>
-                <td></td>
-                <td></td>
-                <td id="plan">
-                    0370.(Plan.XX)<br>
-                    Aula 9<br>
-                    Sergi
-                </td>
-                <td id="plan" rowspan="2">
-                    0370.(Plan.XX)<br>
-                    Aula 9<br>
-                    Sergi
-                </td>
-                <td></td>
-            </tr>
+                <tr id="fila2" class="fila-media">
+                    <th id="hora">15:00-16:00</th>
+                    <td id="ang">
+                        0179.(ANG)<br>
+                        Aula 9<br>
+                        Carles
+                    </td>
+                    <td id="plan">
+                        0370.(Plan.XX)<br>
+                        Aula 9<br>
+                        Sergi
+                    </td>
+                    <td id="php" rowspan="2">
+                        0376.(PHP)<br>
+                        Aula 9<br>
+                        Porti
+                    </td>
+                    <td></td>
+                </tr>
 
-            <tr id="fila2" class="fila-media">
-                <th id="hora">15:00-16:00</th>
-                <td id="ang">
-                    0179.(ANG)<br>
-                    Aula 9<br>
-                    Carles
-                </td>
-                <td id="plan">
-                    0370.(Plan.XX)<br>
-                    Aula 9<br>
-                    Sergi
-                </td>
-                <td id="php" rowspan="2">
-                    0376.(PHP)<br>
-                    Aula 9<br>
-                    Porti
-                </td>
-                <td></td>
-            </tr>
+                <tr id="fila3" class="fila-media">
+                    <th id="hora">16:00-17:00</th>
+                    <td id="seg">
+                        0378.(SEG)<br>
+                        Aula 9<br>
+                        Josep
+                    </td>
+                    <td id="seg">
+                        0378.(SEG)<br>
+                        Aula 9<br>
+                        Josep
+                    </td>
+                    <td id="rest" rowspan="2">
+                        0377./1708.<br>
+                        Aula 10<br>
+                        Porti
+                    </td>
+                    <td></td>
+                </tr>
 
-            <tr id="fila3" class="fila-media">
-                <th id="hora">16:00-17:00</th>
-                <td id="seg">
-                    0378.(SEG)<br>
-                    Aula 9<br>
-                    Josep
-                </td>
-                <td id="seg">
-                    0378.(SEG)<br>
-                    Aula 9<br>
-                    Josep
-                </td>
-                <td id="rest" rowspan="2">
-                    0377./1708.<br>
-                    Aula 10<br>
-                    Porti
-                </td>
-                <td></td>
-            </tr>
+                <tr id="fila4" class="fila-media">
+                    <th id="hora">17:00-18:00</th>
+                    <td id="tuto">
+                        Tutoria<br>
+                        Aula 9<br>
+                        Josep
+                    </td>
+                    <td id="proj">
+                        0379.(Proj)<br>
+                        Aula 9<br>
+                        Josep
+                    </td>
+                    <td id="ang">
+                        0179.(ANG)<br>
+                        Aula 9<br>
+                        Carles
+                    </td>
+                    <td></td>
+                </tr>
 
-            <tr id="fila4" class="fila-media">
-                <th id="hora">17:00-18:00</th>
-                <td id="tuto">
-                    Tutoria<br>
-                    Aula 9<br>
-                    Josep
-                </td>
-                <td id="proj">
-                    0379.(Proj)<br>
-                    Aula 9<br>
-                    Josep
-                </td>
-                <td id="ang">
-                    0179.(ANG)<br>
-                    Aula 9<br>
-                    Carles
-                </td>
-                <td></td>
-            </tr>
+                <tr id="fila5" class="fila-baja">
+                    <th></th>
+                    <td colspan="4"></td>
+                    <td id="nada2"></td>
+                </tr>
 
-            <tr id="fila5" class="fila-baja">
-                <th></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td id="nada2"></td>
-            </tr>
+                <tr id="fila6" class="fila-media">
+                    <th id="hora">18:30-19:30</th>
+                    <td id="proj" rowspan="2">
+                        0379.(Proj)<br>
+                        Aula 9<br>
+                        Carles
+                    </td>
+                    <td id="proj" rowspan="2">
+                        0379.(Proj)<br>
+                        Aula 9<br>
+                        Josep
+                    </td>
+                    <td id="plan">
+                        0370.(Plan.XX)<br>
+                        Aula 9<br>
+                        Sergi
+                    </td>
+                    <td id="proj2" rowspan="2">
+                        0379.(Proj)<br>
+                        Aula 9<br>
+                        Claudina
+                    </td>
+                    <td></td>
+                </tr>
 
-            <tr id="fila6" class="fila-media">
-                <th id="hora">18:30-19:30</th>
-                <td id="proj" rowspan="2">
-                    0379.(Proj)<br>
-                    Aula 9<br>
-                    Carles
-                </td>
-                <td id="proj" rowspan="2">
-                    0379.(Proj)<br>
-                    Aula 9<br>
-                    Josep
-                </td>
-                <td id="plan">
-                    0370.(Plan.XX)<br>
-                    Aula 9<br>
-                    Sergi
-                </td>
-                <td id="proj2" rowspan="2">
-                    0379.(Proj)<br>
-                    Aula 9<br>
-                    Claudina
-                </td>
-                <td></td>
-            </tr>
-
-            <tr id="fila7" class="fila-media">
-                <th id="hora">19:30-20:30</th>
-                <td id="proj">
-                    0379.(Proj)<br>
-                    Aula 9<br>
-                    Carles
-                </td>
-                <td></td>
-            </tr>
+                <tr id="fila7" class="fila-media">
+                    <th id="hora">19:30-20:30</th>
+                    <td id="proj">
+                        0379.(Proj)<br>
+                        Aula 9<br>
+                        Carles
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+            
         </table>
     </body>
     <footer>&copy;2026 David Coruña</footer>
